@@ -14,4 +14,8 @@
   	<servlet-name>Test</servlet-name>
   	<url-pattern>/Test</url-pattern>
   </servlet-mapping>
+  <!-- <filter>
+  		<filter-name>Struts2</filter-name>
+  		<filter-class></filter-class>
+  </filter> -->
 </web-app>
