@@ -2,15 +2,17 @@ package fusdemo;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 import org.junit.*;
 
 import demo.SQLHelper;
+ 
+public class fustest {
 
 /*java连接sqlserver测试 * 
  */
-public class fustest {
-
 	@Test
 	public void getset()
 	{ 
@@ -27,4 +29,6 @@ public class fustest {
 		}
 	 
 	}
+	
+	
 }
